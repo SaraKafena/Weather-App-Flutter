@@ -1,17 +1,69 @@
-# weather_app
+# Flutter Quiz App
 
-A new Flutter project.
+A modern and interactive Quiz Application built using Flutter. The app provides a smooth user experience with authentication, quiz categories, score tracking, dark mode support, and user profile management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Splash Screen with initialization logic
+- Welcome Screen (shown only on first launch)
+- User Authentication (Login)
+- Quiz Categories Dashboard
+- Quiz Details Screen
+- Interactive Quiz Engine
+- Score Calculation
+- User Profile Management
+- Dark & Light Theme Support
+- Notification Settings
+- Language Selection
+- Offline Quiz Storage
+- Smooth Screen Animations
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Splash Screen
+- Welcome Screen
+- Login Screen
+- Dashboard
+- Quiz Details
+- Quiz Screen
+- Profile Screen
+- Settings Screen
+- Result Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- Flutter
+- Dart
+- SharedPreferences
+- Provider / Bloc
+- JSON / SQLite Local Storage
+
+## Navigation Flow
+
+Splash → Welcome → Login → Dashboard → Quiz Details → Quiz → Result
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd your-repository
+```
+
+3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+4. Run the application
+
+```bash
+flutter run
+```
